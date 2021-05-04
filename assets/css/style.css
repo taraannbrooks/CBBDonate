@@ -1520,6 +1520,10 @@ color:#cfcdcd;
   color: #F8F7F4;
 }
 
-/* .col-md-6 { */
-  /* padding-left: 20px; */
-/* } */
+.modal-footer a {
+  color: #F8F7F4;
+}
+
+.modal-footer a:hover {
+  color: #D85327;
+}
