@@ -115,13 +115,13 @@
                     </nav></div>
                     <h2 class="larger">Make a Donation!</h2></div>
                     <h3 class="midWeight xlower large">Your gift today will help provide children with b</div>ooks that are meaningful and relevant to their lives.</h3>
-                    <p class="midWeight xlower">Thank you for supporting The Children's Book Bank!</p>
+                    <p class="midWeight lower">Thank you for supporting The Children's Book Bank!</p>
                   </div>
                   </div>
                 </div>
 
                   <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                  <div class="row lower">
+                  <div class="row xlower">
                     <div class="col-md-9 form-group">
                       <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
                         <option selected>*Choose an amount to donate</option>
@@ -144,7 +144,14 @@
                         <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
                         <span class="input-group-text">.00</span>
                       </div>
+
                       
+
+                      <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                        <label class="form-check-label" for="flexSwitchCheckDefault">Select to make this a recurring monthly donation</label>
+                      </div>
+                      <h3 class="midWeight xlower">Billing and Contact</h3>
                       </select>
                       <div class="row">
                         <div class="col">
@@ -155,7 +162,6 @@
                         </div>
                       </div>
                       
-
                       <div class="mb-3">
                         <label for="formGroupExampleInput" class="form-label"></label>
                         <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Email">
@@ -166,38 +172,85 @@
                       </div>
                       <div class="row">
                         <div class="col">
-                          <input type="text" class="form-control" placeholder="City" aria-label="First name">
+                          <label for="formGroupExampleInput2" class="form-label"></label>
+                          <input type="text" class="form-control" placeholder="City" aria-label="City">
                         </div>
                         <div class="col">
-                          <input type="text" class="form-control" placeholder="State" aria-label="Last name">
+                          <label for="formGroupExampleInput2" class="form-label"></label>
+                          <input type="text" class="form-control" placeholder="State" aria-label="State">
                         </div>
                       </div>
+                      <div class="row">
+                        <div class="col">
+                          <label for="formGroupExampleInput2" class="form-label"></label>
+                          <input type="text" class="form-control" placeholder="Zip/Postal Code" aria-label="Zip/Postal Code">
+                        </div>
+                        <div class="col">
+                          <label for="formGroupExampleInput2" class="form-label"></label>
+                          <input type="text" class="form-control" placeholder="Phone" aria-label="Phone">
+                        </div>
+                      </div>
+                      <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                        <label class="form-check-label" for="flexSwitchCheckDefault">Make donation anonymously</label>
+                      </div>
+                      <div class="form-floating xlower">
+                        <label for="formGroupExampleInput2" class="form-label"></label>
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Notes</label>
+                      </div>
+                      <h3 class="midWeight xlower">Payment Details</h3>
+
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Credit Card
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          E-Check
+                        </label>
+
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <label for="formGroupExampleInput2" class="form-label"></label>
+                          <input type="text" class="form-control" placeholder="Name on Card" aria-label="Name on Card">
+                        </div>
+                        <!-- <div class="col"> -->
+                          <!-- <label for="formGroupExampleInput2" class="form-label"></label> -->
+                          <!-- <input type="text" class="form-control" placeholder="First Name" aria-label="First Name"> -->
+                        <!-- </div> -->
                       
-                      <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">*First Name</label>
                       </div>
-                      <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">*Last Name</label>
+                      <div class="row">
+                        <div class="col">
+                          <label for="formGroupExampleInput2" class="form-label"></label>
+                          <input type="text" class="form-control" placeholder="Credit Card Number" aria-label="Credit Card Number">
+                        </div>
+                        <div class="col">
+                          <label for="formGroupExampleInput2" class="form-label"></label>
+                          <input type="text" class="form-control" placeholder="Card Verification | CVV" aria-label="Card Verification | CVV">
+                        </div>
                       </div>
-                      <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">*Email</label>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <label for="formGroupExampleInput2" class="form-label"></label>
+                        <input type="text" class="form-control" placeholder="Expiration Date" aria-label="Expiration Date">
                       </div>
-                      <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">*Address</label>
+                      <div class="col">
+                        <label for="formGroupExampleInput2" class="form-label"></label>
+                        <input type="text" class="form-control" placeholder="Expiration Year" aria-label="Expiration Year">
                       </div>
-                      <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">*Email</label>
-                      </div>
+                    </div> 
 
                       <!-- Button trigger modal -->
-                      <div class="d-grid gap-2 col-6 mx-auto">
+                      <div class="d-grid gap-2 col-6 mx-auto xlower">
                       <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                      Sign up
+                      Make a gift!
                       </button>
                       </div>
 
@@ -210,15 +263,14 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-      <img class="illustration" src="assets/img/Group 1337@2x.png">
-    <h1 class="thankYou">Thank you!</h1> 
-    <h2 class="normal">We are so excited for you to join our volunteer event!</h2>
-    <p>Your application went through successfully!<br> 
-      Please be sure check your email within the next couple of weeks for more information.</p> 
+      <img class="illustration" src="assets/img/Group 1559.png">
+    <h1 class="thankYou">Thank you for making a difference!</h1> 
+    <h2 class="normal">Your support and generosity is greatly appreciated!</h2>
+    <p>You will recieve a confirmation email shortly. Please don't resitate to reach out if you have any questions!</p>
     </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Home</button>
-        <button type="button" class="btn btn-primary">Explore more</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Our Programs</button>
+        <button type="button" class="btn btn-primary">Back to Home</button>
       </div>
     </div>
   </div>
@@ -227,7 +279,7 @@
 
   <!-- ======= Footer ======= -->
 
-  <footer class="footer" role="contentinfo">
+  <footer class="footer xlower" role="contentinfo">
     <div class="container">
       <div class="row">
         <div class="col-md-3 mb-3 mb-md-0">
