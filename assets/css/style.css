@@ -1235,7 +1235,6 @@ background-color: #E8B720;
   border-radius: 30px;
   box-shadow: none;
   font-weight: 700;
-
 }
 .btn.btn-primary:hover {
   background: #F8F7F4;
@@ -1337,6 +1336,9 @@ background-color: #E8B720;
      margin-left: 15%;
      margin-right: 15%;
    }
+   .btn.btn-primary {
+    margin-left: 25%;
+  }
   }
 
  @media screen and (max-width: 992px) {
@@ -1352,6 +1354,9 @@ background-color: #E8B720;
  }
  p {
   font-size: 20px;
+}
+.btn.btn-primary {
+  margin-left: 20%;
 }
 }
 
@@ -1386,6 +1391,9 @@ background-color: #E8B720;
    margin-top: 2%;
    margin-bottom: 2%;
  }
+ .btn.btn-primary {
+  margin-left: 15%;
+}
 
  /* Footer */
 
@@ -1526,4 +1534,8 @@ color:#cfcdcd;
 
 .modal-footer a:hover {
   color: #D85327;
+}
+
+.signup-btn {
+  justify-content: center;
 }
